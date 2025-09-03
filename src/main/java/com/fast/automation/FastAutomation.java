@@ -15,7 +15,7 @@ public class FastAutomation {
 	public static void main(String[] args) {
 
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-debugging-port=63292");
+		//options.addArguments("--remote-debugging-port=63292");
 		options.addArguments("--start-maximized");
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://fast.com/");
